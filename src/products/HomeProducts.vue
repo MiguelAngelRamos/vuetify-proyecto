@@ -1,0 +1,19 @@
+<template>
+  <Fragment>
+    <Navbar/>
+    <router-view/>
+  </Fragment>
+</template>
+
+<script>
+import Navbar from './components/Navbar.vue';
+export default {
+  components: {
+  Navbar
+  },
+}
+</script>
+
+<style>
+
+</style>
