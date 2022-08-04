@@ -1,8 +1,8 @@
 <template>
-  <Fragment>
+  <div>
     <Navbar/>
     <router-view/>
-  </Fragment>
+  </div>
 </template>
 
 <script>
